@@ -1,0 +1,136 @@
+@charset "utf-8";
+body{
+	font-family: "Microsoft YaHei";
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.page{
+	background: #000;
+}
+.container{
+	margin: 0 auto;
+	width: 1170px;
+}
+.huodong{
+	height: 200px;
+	color: #02cad0;	
+	text-align: center;
+}
+.huodong h2{
+	padding: 80px 0;
+	font-size: 30px;
+	font-weight: normal;
+}
+.zhuanti{
+	color: #fff;
+	height: 100px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.zhuanti a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.biaoti{
+	display: block;
+	margin: 0 auto;
+	width: 1072px;
+	font-size: 24px;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top:-400px;
+}
+.pos{
+	display: block;
+	margin: 0 auto;
+}
+.text{
+	width: 750px;
+	margin: 0 auto;	
+	margin-top: 80px;
+	position: relative;
+	top:-400px;
+	display: none;
+}
+.text h3{
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.text p{
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+}
+.special{
+	background: #e8f1f1;
+	padding-bottom: 40px;
+}
+.col-3{
+	width: 25%;
+	float: left;
+}
+.col-3 img{
+	width: 100%;
+}
+.detail{
+	display: none;
+	background: #fff;
+	height: 393px;
+	width: 25%;
+	float: left;
+	position: relative;
+}
+.detail p{
+	font-size: 12px;
+	line-height: 24px;
+	color: #777;
+	margin: 15px;
+}
+.detail a:hover{
+	color: #23527c;
+	text-decoration: none;
+}
+.btn-xq{
+	width: 125px;
+	height: 33px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 70px;
+	font-size: 18px;	
+	text-align: center;
+	line-height: 33px;
+	background:url("../images/btn_xq.png");
+	color: #fff;
+}
+.triangle{
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	position: absolute;
+	top: 180px;
+	left: -10px;
+	transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+}
+.clearFix{
+	content: "";
+	clear: both;
+}
+.footer{height: 102px;margin: 0 auto;text-align: center;}
+.footer .profile{color: #666;line-height: 20px;padding: 30px 0 0 0;}
+.footer .copyright{color: #9c9c9c;font-size: 12px;margin-top: 8px;}
+.footer span{padding: 8px;}
